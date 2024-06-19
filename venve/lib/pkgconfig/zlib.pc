@@ -1,0 +1,13 @@
+prefix=/Users/mohammedusman/Desktop/customer_retention/venve
+exec_prefix=/Users/mohammedusman/Desktop/customer_retention/venve
+libdir=/Users/mohammedusman/Desktop/customer_retention/venve/lib
+sharedlibdir=/Users/mohammedusman/Desktop/customer_retention/venve/lib
+includedir=/Users/mohammedusman/Desktop/customer_retention/venve/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
